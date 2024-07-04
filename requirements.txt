@@ -1,2 +1,3 @@
 deepeval
 python-dotenv
+langsmith
