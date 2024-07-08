@@ -10,7 +10,7 @@ logging.getLogger().setLevel(logging.INFO)
 
 load_dotenv()  # take environment variables from .env.
 
-def deepeval_generator(file_path:str,db_name:str)->str:
+def deepeval_generator(file_path:str,dataset_name:str)->str:
     """
 
     :param file_path:
@@ -26,7 +26,7 @@ def deepeval_generator(file_path:str,db_name:str)->str:
         actual_output_col_name="Answer"
     )
 
-    dataset.push(alias="example_ninst",overwrite=True)
+    result = dataset.push(alias=dataset_name,overwrite=True)
 
 def langsmith_generator(file_path:str,dataset_name:str)->str:
     """
