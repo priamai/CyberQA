@@ -1,3 +1,5 @@
 deepeval
 python-dotenv
 langsmith
+unstructured[md]
+psutil

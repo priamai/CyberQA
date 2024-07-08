@@ -1,0 +1,7 @@
+```csv
+"Question","Answer","Level","Source"
+"What is network segmentation?","Network segmentation is the practice of dividing a network into smaller, isolated segments or subnetworks, where each segment is isolated from the others, and access between segments is controlled and restricted based on specific security policies.","1","Microsoft Security 101"
+"How does network segmentation help implement zero trust?","Network segmentation helps implement zero trust by enforcing the principle of 'least privilege', ensuring that users and devices have access only to the specific resources they need, implementing strict access controls, isolating critical assets, and preventing lateral movement of attackers.","1","Microsoft Security 101"
+"What is end-to-end encryption?","End-to-end encryption is a security measure that ensures that data remains encrypted throughout its entire journey from the sender to the recipient, making it difficult for unauthorized parties to access the plaintext data.","1","Microsoft Security 101"
+"What is SASE?","SASE, or Secure Access Service Edge, is a cybersecurity framework that combines network security and WAN capabilities into a single cloud-based service, focusing on secure and scalable access for remote and mobile users, integrating security services with networking, and operating on zero trust principles.","1","Microsoft Security 101"
+```
